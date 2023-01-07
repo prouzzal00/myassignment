@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header{
+    height: 808px;
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+}
+.header_head{
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 216px;
+    margin-right: 130px;
+}
+.header_p{
+    text-align: right;
+    padding: 28px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 110px;
+}
+.button{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1010px;
+    margin-right: 130px;
+    top: 578px;
+    color: rgb(0, 119, 255);
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+} 
+
+/* body section 1*/
+
+.body-section-1{
+    margin-left: 100px;
+    padding-top: 130px;
+    display: flex;
+    margin-right: 150px;
+}
+.section-title{
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.section-p{
+    margin-left: 50px;
+    line-height: 40px;
+}
+.check-box{
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.check{
+   color: #16D887;
+    padding-right: 10px;
+}
+
+/* Body-Section-2 */
+
+.section-2-margin{
+    margin: 0 100px;
+}
+.section-2-header{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-2-body{
+    display: flex;
+    justify-content: space-around;
+}
+.web{
+    padding-left: 100px;
+}
+.java{
+    padding-left: 30px;
+}
+.smoking{
+    padding-left: 65px;
+}
+.e-commearce{
+    padding-left: 55px;
+}
+.section-2-body p{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* Body-Section-3 */
+
+.section-3{
+    background-image: url(images/watch.png);
+    height: 250px;
+    margin: 0 120px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    
+}
+.gradient{
+    background-image: linear-gradient(to right, #005FAC, #005fac00);
+}
+.section-3-header{
+    padding-left: 60px;
+    padding-top: 60px;
+    color: white;
+    font-weight: 900;
+    padding-bottom: 30px;  
+}
+.section-3-button{
+    margin-left: 60px;
+    padding: 15px 20px;
+    color: #005FAC ;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+.section-3-btn{ 
+    height: 70px;
+}
+
+/* Extra section */
+
+.extra-section-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Extra-section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px;
+}
+.extra-body{
+    padding: 100px;
+    
+}
+.html{
+    height: 50px;
+    color: red;
+    width: 20px;
+}
+.javascript{
+    color: red;
+}
+.css{
+    color: red;
+}
+.php{
+    color: red;
+}
+.bootstrap{
+    color: red;
+}
+.button-html{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.button-java{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.button-css{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.button-php{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.button-bootstrap{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+
+/* footer */
+
+.footer-containar{
+    display: flex;
+    height: 450px;
+    background-color: black;
+}
+.footer-deatils{
+    margin-left: 100px;
+}
+.footer-header{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.footer-p{
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-email{
+    color: white;
+    padding-bottom: 15px;
+}
+.footer-number{
+    color: white;
+    padding-bottom: 30px;
+}
+.img{
+    padding: 0 10px;
+}
+
+.footer-subscribe{
+    margin-left: 400px;
+    padding-top: 100px;
+}
+.footer-subscribe-header{
+    color: white;
+}
+.footer-input{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid white;
+}
+.subscribe{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: #005FAC;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}

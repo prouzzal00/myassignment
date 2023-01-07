@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Styles Start */
+.header{
+    background-image: url(images/banner/banner3.png);
+    height: 800px;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 800px;
+    padding-right: 70px;
+    padding-top: 200px;
+    text-align: right;
+    line-height: 85px;
+}
+.header-desc{
+    margin-left: 800px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    line-height: 26px;
+}
+.header-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    margin-left: 1070px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+/* Header Styles End */
+
+/* Container Top Start */
+.container-top{
+    display: flex;
+    align-items: center;
+}
+.container-image{
+    width: 500px;
+    height: 700px;
+    padding-top: 130px;
+    margin-left: 180px;
+}
+.container-text{
+    padding-left: 80px;
+    margin-right: 150px;
+    padding-top: 250px;
+}
+.container-title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+}
+.desc-top{
+    padding-bottom: 20px;
+}
+.container-desc{
+    color: #444343;
+    padding-top: 25px;
+    line-height: 30px;
+}
+.icon{
+    color: #16D887;
+}
+/* Container Top End */
+
+/* My Plans Styles Start */
+.plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 200px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 140px;
+}
+.web-icon{
+    padding-left: 75px;
+}
+.js-icon{
+    padding-left: 15px;
+}
+.smoke-icon{
+    padding-left: 30px;
+}
+.ecom-icon{
+    padding-left: 17px;
+}
+.plan{
+    padding: 15px 0;
+}
+.plan-desc{
+    color: #737272;
+    font-size: 17px;
+    text-align: center;
+}
+/* My Plans Styles End */
+
+/* My Personality Styles Start */
+.honest-icon{
+    height: 93px;
+    width: 93px;
+    padding-left: 20px;
+}
+.creative-icon{
+    height: 93px;
+    width: 93px;
+    padding-left: 50px;
+}
+.innocent-icon{
+    height: 93px;
+    width: 93px;
+    padding-left: 20px;
+}
+.lover-icon{
+    height: 93px;
+    width: 93px;
+    padding-left: 20px;
+
+}
+.personality-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 200px;
+}
+.personalities{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        margin-left: 180px;
+        margin-right: 120px;
+}
+.personality-h{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.personality-c{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+}
+.personality-i{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.personality-l{
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.personality-desc{
+    color: #737272;
+    font-size: 17px;
+    padding-right: 20px;
+}
+/* My Personality Styles End */
+
+/* Motivation Parts Styles */
+.motivation{
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 280px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.motivation-word{
+    padding-top: 65px;
+    padding-left: 64px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #005FAC,rgba(255, 253, 253, 0));
+}
+.call-btn{
+    background-color: #FFFFFF;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    border-style: none;
+}
+.call-button{
+    background-image: linear-gradient(to right, #005FAC,#005fac00);
+    height: 121px;
+}
+/* Motivation parts Styles End */
+
+/* Footer Styles Start */
+.footer{
+    display: flex;
+    background-color: #151414;
+    padding-bottom: 100px;
+}
+.info{
+    width: 50%;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+.info-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.info-email{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.information{
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.social{
+    padding-top: 30px;
+}
+.twt{
+    padding: 0 10px;
+}
+.helpline{
+    padding-top: 100px;
+}
+.subscribe{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.email{
+    background-color: #151414;
+    width: 265px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    padding-left: 10px;
+}
+.subscribe-btn{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #005FAC;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+}
